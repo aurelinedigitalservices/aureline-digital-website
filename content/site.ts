@@ -6,7 +6,7 @@ export const site = {
   description:
     "Aureline Digital designs and builds professional websites for local service businesses in Houston, Texas and beyond.",
   // Set this to the live address once you know it (see README). Used for page metadata, the sitemap and social previews.
-  url: "http://localhost:3000",
+  url: "https://aureline-digital-website.netlify.app",
   email: "aurelinedigitalservices@gmail.com",
   // Add a phone number here only if the business has one. Empty values are hidden.
   phone: "",
