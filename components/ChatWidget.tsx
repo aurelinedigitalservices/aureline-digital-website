@@ -52,7 +52,7 @@ export default function ChatWidget() {
   }
 
   return (
-    <div className="fixed bottom-5 right-5 z-[70]">
+    <div className="fixed bottom-5 left-5 z-[70]">
       {isOpen && (
         <section
           aria-label="Aureline Digital chat assistant"
@@ -111,7 +111,7 @@ export default function ChatWidget() {
         onClick={() => setIsOpen((value) => !value)}
         aria-expanded={isOpen}
         aria-label={isOpen ? "Close chat assistant" : "Open chat assistant"}
-        className="ml-auto flex min-h-14 items-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-medium text-white shadow-lg transition hover:bg-ink-soft focus-visible:outline-offset-4"
+        className="mr-auto flex min-h-14 items-center gap-2 rounded-full bg-ink px-5 py-3 text-sm font-medium text-white shadow-lg transition hover:bg-ink-soft focus-visible:outline-offset-4"
       >
         <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true">
           <path d="M20 11.5a7.5 7.5 0 0 1-7.5 7.5H5l1.5-3A7.5 7.5 0 1 1 20 11.5Z" />
